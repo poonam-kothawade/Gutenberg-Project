@@ -1,0 +1,31 @@
+.Genre{
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+  border-radius: 4px;
+  margin: 10px 10px;
+  flex-basis: 30%;
+  width: 150px;
+  position: relative;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.genreText{
+  font-size: 20px;
+  margin: 15px 0;
+  vertical-align:middle;
+}
+.arrowRight{
+  position: absolute;
+  right: 20px;
+}
+.iconsGenre{
+  margin-right: 10px;
+}
+@media screen and (max-width:700px) {
+  .Genre{
+    flex-basis: 80%;
+  }
+}
+

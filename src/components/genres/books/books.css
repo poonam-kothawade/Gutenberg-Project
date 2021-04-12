@@ -1,0 +1,94 @@
+.booksContainer{
+  margin: 150px 0px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.displayBooks{
+  background-color:#F8F7FF;
+  padding: 20px 200px 50px 200px;
+}
+.heading{
+  font-size: 48px;
+  font-weight: bold;
+  color:#5E56E7;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.iconStyles{
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.searchIcon{
+  position: absolute;
+  left:5px;
+  bottom: 10px;
+}
+.searchBox{
+  border:1px solid#F8F7FF;
+  background-color:#F8F7FF;
+  border-radius: 4px;
+  padding: 0px 20px;
+  height: 40px;
+  width: 400px;
+}
+input[type='search']{
+  padding-left: 50px;
+}
+input[type='search']:focus{
+  border:1px solid#5E56E7;
+}
+.searchContainer{
+  position: relative;
+}
+figure{
+  margin: 0px;
+  cursor: pointer;
+}
+.bookImage{
+  width: 114px;
+  height: 162px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+.booktitle{
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0px;
+  margin-top: 5px;
+}
+.bookAuthor{
+  font-size: 16px;
+  color: gray;
+}
+
+@media screen and (max-width:1024px) {
+  .displayBooks{
+    padding: 20px 100px 50px 100px;
+  }
+  .heading{
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .bookImage{
+    width: 90px;
+  }
+  .booktitle{
+    font-size: 14px;
+  }
+  .bookAuthor{
+    font-size: 14px;
+  }
+  .displayBooks{
+    padding: 20px 10px 50px 10px;
+  }
+  .heading{
+    margin-left: 0px;
+  }
+  .searchBox{
+    width: 200px;
+  }
+}
